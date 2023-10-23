@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milkshake</title>
+    <link rel="stylesheet" href="milkshake.css">
+</head>
+<body>
+    <header>
+        <h1>Milkshakes</h1>
+        <p>Indulge in delicious milkshakes!</p>
+        <h5>A perfect blend of milk and happiness</h5>
+        <nav>
+            <ul>
+                <li><a href="#sign" class="nav">Sign Up</a></li>
+                <li><a href="#menu" class="nav">Menu</a></li>
+                <li><a href="#contact" class="nav">Contact</a></li>
+                <li><a href="#about" class="nav">About</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="sign">
+        <h2>Sign Up</h2>
+        <div class="form">
+            <form id="signup">
+                <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+                <button type="button" onclick="enter()">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Strawberry-Milkshake-with-Fresh-Strawberries-683x1024.png" height="200" alt="Milkshake 1">
+            <h3>Strawberry Delight</h3>
+            <p>A heavenly blend of fresh strawberries.</p>
+            <p class="price">$5.99</p>
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://th.bing.com/th/id/OIP.SN4bYrONsouRow1QiS1CXgHaLG?pid=ImgDet&rs=1" height="205" width="200" alt="Milkshake 2">
+            <h3>Chocolate Bliss</h3>
+            <p>Rich and creamy chocolate goodness.</p>
+            <p class="price">$6.99</p>
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.thespruceeats.com/thmb/nOApt5ou42lYS1pEVGUcZNrZtYc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-oreo-milkshake-recipe-4038636-hero-01-5c1d540346e0fb000109272e.jpg" alt="Milkshake 3">
+            <h3>Oreo Milkshake</h3>
+            <p>The thick, creamy, and crunchy Oreo cookie shake.</p>
+            <p class="price">$10.0</p>
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.thespruceeats.com/thmb/HLT9dwUxODfdmRDIq3qIW4lWE5s=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/homemade-caramel-sauce-recipe-1945750-hero-01-f9d1c5e7f70b42238b9df9fc2e0b9710.jpg" alt="Milkshake 3">
+            <h3>Salted Caramel Milkshake</h3>
+            <p>Creamy vanilla ice cream and salted caramel sauce.</p>
+            <p class="price">$7.99</p>
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://jonahsbistro.in/wp-content/uploads/2023/05/ferrero-rocher-shake.jpg" alt="Milkshake 3">
+            <h3>Ferrero Rocher Milkshake</h3>
+            <p>A blend of ice cream and Ferrero Rocher chocolate.</p>
+            <p class="price">$19.99</p>
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://jonahsbistro.in/wp-content/uploads/2023/05/banana-thickshake.jpg" alt="Milkshake 3">
+            <h3>Banana Thickshake</h3>
+            <p>A cold, creamy banana thickshake</p>
+            <p class="price">$4.99</p>
+            <button class="order-button">Order Now</button>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Contact us!</p>
+        <form>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button class="contact-button">Submit</button>
+        </form>
+    </section>
+    <section id="about">
+        <div id="ab">
+            <address>
+                Milkshake
+                Some Place
+                <a href="_blank" >milkshake@gmail.com</a>
+            </address>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Milkshakes</p>
+    </footer>
+
+    <script src="milkshake.js"></script>
+</body>
+</html>
